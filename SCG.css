@@ -1,0 +1,310 @@
+body {
+  background-color: #000;
+  font-family: Sans-Serif;
+  height: 100vh;
+  margin: 0;
+}
+.notif {
+  text-align: center;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  height: 5%;
+  width: 80%;
+  font-size: 25px;
+  color: #fff;
+  background-color: #af0000;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  z-index: 90;
+  display: none;
+}
+.fakebg {
+  top: 0%;
+  left: 0%;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+  position: relative;
+  z-index: 1;
+}
+.bg {
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: transparent;
+  z-index: 5;
+}
+.TitleGame {
+  text-align: center;
+  position: absolute;
+  background-color: transparent;
+  height: 20%;
+  width: 80%;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+  z-index: 6;
+}
+.black_screen {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background-color: transparent;
+  z-index: 15;
+}
+.Score {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  background-color: transparent;
+  font-size: 30px;
+  z-index: 6;
+}
+.realscore {
+  background-color: #fff;
+  border: 1px solid #df0000;
+  border-radius: 10px;
+}
+.perclick_ui {
+  text-align: center;
+  word-wrap: break_word;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  transform: translate(-10%, -40%);
+  background-color: #fff;
+  width: 15%;
+  height: 3%;
+  z-index: 12;
+}
+.perclick {
+  position: flex;
+  font-size: 20;
+  z-index: 12;
+}
+.btn {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  height: 15%;
+  width: 40%;
+  z-index: 10;
+}
+.clickvar {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  cursor: none;
+  z-index: 15;
+  border: none;
+}
+.button_img {
+  position: absolute;
+  height: 15%;
+  width: 40%;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  z-index: 5;
+}
+.button_click {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  position: absolute;
+  display: none;
+  z-index: 9;
+}
+.button_un_click {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  position: absolute;
+  display: block;
+  z-index: 9;
+}
+/*Market Visual Css*/
+.market_area {
+  position: absolute;
+  height: 65%;
+  width: 95%;
+  left: 0%;
+  top: 25%;
+  transform: translateY(-20%);
+  background-color: transparent;
+  z-index: 6;
+}
+.market_ui_button {
+  position: absolute;
+  height: 12.5%;
+  width: 15%;
+  left: 2%;
+  top: 55%;
+  transform: translate(-2%, -50%);
+  background-color: transparent;
+  z-index: 18;
+}
+.market_ui_button_img {
+  position: absolute;
+  width: 15%;
+  height: 12.5%;
+  left: 2%;
+  top: 55%;
+  transform: translate(-2%, -50%);
+  background-color: transparent;
+  z-index: 14;
+}
+.market_button {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 14;
+}
+.market_button_png {
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+  background-color: transparent;
+  position: absolute;
+  z-index: 7;
+}
+.market_button_click_png {
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+  background-color: transparent;
+  position: absolute;
+  z-index: 14;
+}
+.button_market {
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  position: absolute;
+  z-index: 20;
+  background-color: transparent;
+  border: none;
+}
+.market_ui_menu {
+  position: absolute;
+  width: 75%;
+  height: 100%;
+  left: 20%;
+  top: 0%;
+  background-color: #0ff";
+  display: block;
+  z-index: 20;
+  display: none;
+}
+.market_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  display: block;
+  z-index: 15;
+}
+.box_menu_market {
+  text-align: top;
+  width: 74%;
+  height: 74%;
+  position: absolute;
+  top: 13%;
+  left: 13%;
+  transform: ;
+  background-color: transparent;
+  z-index: 16;
+}
+.market_slot {
+  height: 25%;
+  width: 100%;
+  position: flex;
+  background-color: transparent;
+}
+.slot {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+.slot_name {
+  height: 5%;
+  width: 40%;
+  position: absolute;
+  top: -2%;
+  left: 80%;
+  transform: translate(-80%, 2%);
+  z-index: 17;
+  font-size: 13px;
+  color: #fff;
+  background-color: transparent;
+}
+.slot_price {
+  height: 5%;
+  width: 20%;
+  position: absolute;
+  top: 13%;
+  left: 59%;
+  transform: translate(-58%, -10%);
+  font-size: 15px;
+  color: #fff;
+  background-color: transparent;
+  border: 1.5px solid #fff;
+}
+.slot_buy {
+  height: 10%;
+  width: 20%;
+  position: absolute;
+  top: 10%;
+  left: 82%;
+  transform: translate(-70%, -10%);
+  background-color: #000;
+  color: #fff;
+  border: 1.5px solid #fff;
+  z-index: 20;
+}
+.icon_slot1 {
+  height: 13%;
+  width: 23%;
+  position: absolute;
+  top: 6%;
+  left: 18%;
+}
+/* reset button for test*/
+.reset_ui {
+  position: absolute;
+  width: 11%;
+  height: 3%;
+  top: 5%;
+  left: 2%;
+  transform: translate(-2%, -5%);
+  background-color: #ff0009;
+  z-index: 5;
+}
+.reset_btn {
+  background-color: transparent;
+  position: absolute;
+  top: 0%;
+  top: 0%;
+  background-color: transparent;
+}
+h1 {
+  color: #fff;
+}
+h3 {
+  color: #fff;
+}
