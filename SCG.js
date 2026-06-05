@@ -8,7 +8,7 @@ function wrapscore(angka) {
   } else if (angka >= 1000000) {
     return (angka / 1000000).toFixed(1) + 'M';
   }else if (angka >= 1000) {
-    return (angka / 1000).toFixed(1) + 'K';
+    return (angka / 1000).toFixed(3) + 'K';
   }
   return angka;
 }
